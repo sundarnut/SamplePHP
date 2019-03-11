@@ -46,3 +46,43 @@ for video in data['feed']['entry'][0:10]:
 karma = 101
 print("Karma %s Python rocks" % karma)
 
+# Integer division
+print(10 // 3)
+# 3
+
+# Power
+print(2**10)
+# 1024
+
+# Binary
+print(0B10000)
+# 16
+
+# Octal
+print(0o20)
+# 16
+
+# Hexadecimal
+print(0xff)
+# 255
+
+# Mod
+print(11 % 3)
+# 2
+
+# Type
+print(type('abc'))
+# <class 'str'>
+
+# To get truncated quotient and remainder as a tuple
+print(divmod(13, 3))
+# (4, 1)
+
+# int conversion
+print(int(False))
+# 0
+
+# int conversion not possible
+print(int('0x10h'))
+# Error
+
